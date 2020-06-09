@@ -9,6 +9,7 @@ They use [Puppeteer](https://www.npmjs.com/package/puppeteer) for that headless 
 
 There are also some added scripts (`autotest` and `autoe2e`) in the package.json to simplify the actual workflow.
 
+---
 
 # Angulartest
 
