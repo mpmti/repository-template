@@ -7,7 +7,7 @@ Karma and Protractor must be configured such that they test with a headless brow
 They use [Puppeteer](https://www.npmjs.com/package/puppeteer) for that headless browser stuff.
 
 
-There are also some added scripts to the `package.json` to simplify the actual workflow.
+There are also some added scripts (`autotest` and `autoe2e`) in the package.json to simplify the actual workflow.
 
 
 # Angulartest
