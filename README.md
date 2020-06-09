@@ -1,3 +1,15 @@
+# Workflow for automated tests with Angular
+
+Automating test for Angular with a workflow requires the actual workflow (c.f. `.github/workflows/run-tests.yml`), changes to the standard Karma and Protractor configurations and also some additional dependencies.
+
+
+Karma and Protractor must be configured such that they test with a headless browser, or else the github actions can not execute the tests (c.f. `karma-ci.conf.js` and `e2e/protractor-ci.conf.js` ).
+They use [Puppeteer](https://www.npmjs.com/package/puppeteer) for that headless browser stuff.
+
+
+There are also some added scripts to the `package.json` to simplify the actual workflow.
+
+
 # Angulartest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
