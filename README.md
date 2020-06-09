@@ -1,18 +1,23 @@
-# Project name
+# Repository Template
 
-Description of the project: What is its purpose, what can you accomplish using it?
-
-## Installation
-
-How would you install the project?
+This Repository provides Templates for further Repositories.
 
 ## Usage
 
-How do you use the project? E.g. what methods are exposed for usage, where can you find more information about the API, what parameters does the CLI take?
+This Repository has multiple branches. Each branch provides another template.
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### plain
+Very basic. Provides templates for issues and pull requests and such.
 
-Please make sure to update tests as appropriate.
+### angular-automatedtests-workflow
 
-## License
+Provides a working example for automated test with Angular.
+Consists of a simple Angular project and a workflow. 
+Switch to that branch for further information.
+
+###  nest-automatedtests-workflow 
+
+Provides a working example for automated test with Nest.
+Consists of a simple Nest project and a workflow. 
+Switch to that branch for further information.
+
