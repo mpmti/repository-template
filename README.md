@@ -1,3 +1,9 @@
+# Workflow for automated tests with Nest
+
+This branch provides a small example of a nest project with a workflow to execute test in an automated fashion.
+The test are executed on each pull request.
+The only thing required to do so is the actual workflow (c.f. `.github/workflows/run-tests.yml`).
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
